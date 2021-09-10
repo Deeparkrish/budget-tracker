@@ -23,6 +23,8 @@ request.onsuccess = function(event) {
     // check if app is online, if yes run  function to send all local db data to api
     if (navigator.onLine) {
       // call  function
+      uploadTransactions();
+
     }
   };
   
@@ -61,8 +63,8 @@ function uploadTransactions(){
     if(getAll.result.length > 0)
     {
       // send the array of data using fetch 
-      fetch('/api/transaction',{
-        method :post,
+      fetch('/api/transaction', {
+        method: 'POST',
         body :JSON.stringify(getAll.result),
         headers:{
           Accept: 'application/json, text/plain, */*',
