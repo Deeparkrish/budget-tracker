@@ -1,7 +1,7 @@
 {
-  "name": "budget-app",
+  "name": "budget-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "A PWA app to update an existing budget tracker application to allow for offline access and functionality",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
   },
-  "author": "",
+  "author": "Deepa Krishnan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/coding-boot-camp/unit18hw/issues"
@@ -21,7 +21,13 @@
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
+    "lite-server": "^2.6.1",
     "mongoose": "^5.13.9",
     "morgan": "^1.10.0"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [
+    "budget",
+    "PWA"
+  ]
 }
