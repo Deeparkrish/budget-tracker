@@ -1,4 +1,4 @@
-# Budget Tracker Starter Code
+# Budget Tracker 
 ## Description
 A mobile-first PWA to update an existing budget tracker application.The app has a server and uses MongoDB as its database.<br>
 It provides the following functionality:<br>
@@ -6,8 +6,6 @@ It provides the following functionality:<br>
     * The ability to enter expenses offline.<br>
     * Offline entries will be added to the tracker when the application is brought back online.
     
-# tech-blog
-
   <p align="left">
     <img src="https://img.shields.io/github/repo-size/deeparkrish/budget-tracker" />
     <img src="https://img.shields.io/github/issues/deeparkrish/budget-tracker" />
