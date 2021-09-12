@@ -92,8 +92,8 @@ It provides the following functionality:<br>
           * start_url:URL that should be loaded when the user launches the web application.
           * display:When set to 'standalone', the application will look and feel like a standalone application. This can include the application having a different                     window, its own icon in the application launcher
           
-   * Deploying the app on Heroku <br>
-      * The follwing steps are followed:
+   * Deploying the app on Heroku 
+      * The steps are found below:
          * Create a mongoDb Atlas account.
          * Create Production Database in Atlas.
          * Add a Database and network access 
