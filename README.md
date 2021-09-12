@@ -44,18 +44,14 @@ It provides the following functionality:<br>
     npm install express mongoose morgan compression
 
   ##  Usage
-  ### Frome Heroku app :   
-    Visit the heroku app link provided below and wait for the application to start.
-    
-  
-  ### Download App
-  
+  #### Start the app
+      node server.js
+  #### On Heroku 
+    Visit the heroku app link provided below and wait for the application to start.  
+  #### Download App
   Click on <img src="https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/download%20icon.png" alt="InstallApp" width="50" height ="50"/>
   in your browser's in the URL address bar.
-
-  ### Start the app
-    node server.js
-
+  
   ## License 
   [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)<br />
   This app is covered under ISC license.
