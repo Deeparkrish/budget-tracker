@@ -46,7 +46,7 @@ It provides the following functionality:<br>
   ##  Usage
   ### Frome Heroku app :   
     Visit the heroku app link provided below and wait for the application to start.
-    or click on ![image](https://user-images.githubusercontent.com/82689013/133001248-49426b11-b197-4948-b36c-c9181a810cad.png) to the right to download App.
+    or click on ![image](https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/download%20icon.png) to the right to download App.
 
 
   ### Start the app
