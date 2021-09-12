@@ -1,6 +1,7 @@
 # Budget Tracker Starter Code
 ## Description
-A PWA app to update an existing budget tracker application to allow for offline access and functionality.
+A PWA app to update an existing budget tracker application to allow for offline access and functionality.The app has a server and uses MongoDB as its database.
+This will be a mobile-first application and will be deployed to Heroku using MongoDB Atlas.
 
 # tech-blog
 
