@@ -44,13 +44,10 @@ It provides the following functionality:<br>
     npm install express mongoose morgan compression
 
   ##  Usage
-  ### Deploying the app :   
-    Create a mongoDb Atlas account
-    Create Production Database in Atla
-    Add a Database and network access 
-    Copy the connection URL
-    Set Up the Environment Variable in Heroku
-    Connect Production Database to App
+  ### Frome Heroku app :   
+    Visit the heroku app link provided below and wait for the application to start.
+    or click on ![image](https://user-images.githubusercontent.com/82689013/133001248-49426b11-b197-4948-b36c-c9181a810cad.png) to the right to download App.
+
 
   ### Start the app
     node server.js
@@ -96,8 +93,13 @@ It provides the following functionality:<br>
           * start_url:URL that should be loaded when the user launches the web application.
           * display:When set to 'standalone', the application will look and feel like a standalone application. This can include the application having a different                     window, its own icon in the application launcher
           
-
-
+   * Depolying the app on Heroku 
+         *  Create a mongoDb Atlas account.
+         *  Create Production Database in Atlas.
+         *  Add a Database and network access 
+         *  Copy the connection URL
+         *  Set Up the Environment Variable in Heroku.
+         *  Connect Production Database to App
     
   ## Technologies 
   * MongoDB: A general purpose, document-based, distributed NoSQL database built for web application developers in the cloud era.Data stored in JSON format.
