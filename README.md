@@ -50,7 +50,8 @@ It provides the following functionality:<br>
   
   ### Download App
   
-  or click on ![image](https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/download%20icon.png) in your browser's in the URL address bar.
+  Click on <img src="https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/download%20icon.png" alt="InstallApp" width="200" height ="100"/>
+  in your browser's in the URL address bar.
 
   ### Start the app
     node server.js
