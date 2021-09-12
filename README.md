@@ -112,9 +112,13 @@
  
   ##  Mockup
   ![Image](https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/mockup.png)
+   #### IndexedDB
   ![Image](https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/Indexed%20Db%20-%20netwwork%20offline.png)
+   #### Manifest.json
   ![Image](https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/manifest.json.png)
+   #### Service-worker 
   ![Image](https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/service%20workers.png)
+   #### Files Cached 
   ![Image](https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/serviceworker-cache%20files%20.png)
 
   ## Testing
