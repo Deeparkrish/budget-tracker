@@ -21,7 +21,7 @@ const FILES_TO_CACHE = [
 
 // install service worker 
 self.addEventListener('install', function (e) {
-    // tell the broswer to wait until all files have been cached
+    // tell the brower to wait until all files have been cached
     e.waitUntil(
         // find a specific CACHE_NAME and install 
       caches.open(CACHE_NAME).then(function (cache) {
