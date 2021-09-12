@@ -18,7 +18,7 @@ This is a mobile-first application and has been deployed to Heroku using MongoDB
     <img src="https://img.shields.io/badge/-dtoenv-lightgrey" />
     <img src="https://img.shields.io/badge/-morgan-orange"/>
     <img src="https://img.shields.io/badge/-compression-lightgreen"/>
-    <img src="https://img.shields.io/badge/-mongodb-pink"/>
+    <img src="https://img.shields.io/badge/-mongodbAtlas-pink"/>
 
 </p>
 
@@ -58,8 +58,25 @@ This is a mobile-first application and has been deployed to Heroku using MongoDB
   This app is covered under ISC license.
   
    ## Process
- When an end-user visits a  CMS-style blog site, 
-  
+   Inorder to update an existing budget tracker application to allow for offline access and functionality so that the users will be able to add expenses and  deposits to their budget with or without a connection, The following process is followed : 
+  * First an Indexed database(idb.js) file is created, to implement the   offline functionality.
+      * A db variable is created to hold db connection that will store the connected database object when the connection is complete.
+      * A 'request' variable is acreated that acts as an eventlistener to the db.
+      * An 'ObjectStore' is created to hold the data.
+      * When db is successfully created with its object store,its ready to store data.
+      * Whenver the user adds or remove funds when the network is OFFLINE, a temp connection to the db is opened and the corresponding  transaction is saved in the ObjectStore.
+      * An eventlistener is added to window object  to check the network status changes. 
+      * When the app is online, a is called function called to send all the data stored in the ObjectStore to server using api fetch request. 
+      * Upon successful, transmission the ObjectStore is cleared.
+      
+
+    
+  * If the user enters transactions offline, the total should be updated when they're brought back online. Once you’ve made these changes, you’ll deploy the application to Heroku.
+  Given a budget tracker without an internet connection,
+WHEN the user inputs an expense or deposit
+THEN they will receive a notification that they have added an expense or deposit
+WHEN the user reestablishes an internet connection
+THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated  
     
   ## Technologies 
   * MongoDB: A general purpose, document-based, distributed NoSQL database built for web application developers in the cloud era.Data stored in JSON format.
