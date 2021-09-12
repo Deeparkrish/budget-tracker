@@ -1,12 +1,11 @@
 # Budget Tracker Starter Code
 ## Description
-A PWA app to update an existing budget tracker application to allow for offline access and functionality.The app has a server and uses MongoDB as its database.
-<p>
-This is a mobile-first application and has been deployed to Heroku using MongoDB Atlas and provides the following functionality:
-    * The ability to enter deposits offline.
-    * The ability to enter expenses offline.
-    * Offline entries should be added to the tracker when the application is brought back online.
-<p>
+A mobile-first PWA to update an existing budget tracker application.The app has a server and uses MongoDB as its database.<br>
+It provides the following functionality:<br>
+    * The ability to enter deposits offline.<br>
+    * The ability to enter expenses offline.<br>
+    * Offline entries will be added to the tracker when the application is brought back online.
+    
 # tech-blog
 
   <p align="left">
