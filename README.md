@@ -73,7 +73,7 @@ This is a mobile-first application and has been deployed to Heroku using MongoDB
  
  
   ##  Mockup
-  ![Webpage](https://github.com/Deeparkrish/tech-blog/blob/master/src/img/hompage.png)
+  ![Webpage](https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/mockup.png)
   
   ## Testing
    App can be tested on your browser/ deployed heroku site
