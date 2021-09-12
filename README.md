@@ -18,10 +18,9 @@ It provides the following functionality:<br>
     <img src="https://img.shields.io/badge/mongoose-blue"  />
     <img src="https://img.shields.io/badge/-node.js-green" />
     <img src="https://img.shields.io/badge/-express-red" >
-    <img src="https://img.shields.io/badge/-dtoenv-lightgrey" />
     <img src="https://img.shields.io/badge/-morgan-orange"/>
     <img src="https://img.shields.io/badge/-compression-lightgreen"/>
-    <img src="https://img.shields.io/badge/-mongodbAtlas-pink"/>
+    <img src="https://img.shields.io/badge/-mongoDBAtlas-pink"/>
 
 </p>
 
