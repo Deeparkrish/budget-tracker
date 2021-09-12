@@ -50,7 +50,7 @@ It provides the following functionality:<br>
   
   ### Download App
   
-  Click on <img src="https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/download%20icon.png" alt="InstallApp" width="200" height ="100"/>
+  Click on <img src="https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/download%20icon.png" alt="InstallApp" width="100" height ="100"/>
   in your browser's in the URL address bar.
 
   ### Start the app
