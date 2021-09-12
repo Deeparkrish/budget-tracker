@@ -1,10 +1,4 @@
 # Budget Tracker 
-## Description
-A mobile-first PWA to update an existing budget tracker application.The app has a server and uses MongoDB as its database.<br>
-It provides the following functionality:<br>
-    * The ability to enter deposits offline.<br>
-    * The ability to enter expenses offline.<br>
-    * Offline entries will be added to the tracker when the application is brought back online.
     
   <p align="left">
     <img src="https://img.shields.io/github/repo-size/deeparkrish/budget-tracker" />
@@ -21,7 +15,13 @@ It provides the following functionality:<br>
     <img src="https://img.shields.io/badge/-mongoDBAtlas-pink"/>
 
 </p>
-
+   
+  ## Description
+   A mobile-first PWA to update an existing budget tracker application.The app has a server and uses MongoDB as its database.<br>
+   It provides the following functionality:<br>
+    * The ability to enter deposits offline.<br>
+    * The ability to enter expenses offline.<br>
+    * Offline entries will be added to the tracker when the application is brought back online.
  
   ## Table of Contents 
   * [Description](#description)
@@ -111,8 +111,12 @@ It provides the following functionality:<br>
  
  
   ##  Mockup
-  ![Webpage](https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/mockup.png)
-  
+  ![Image](https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/mockup.png)
+  ![Image](https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/Indexed%20Db%20-%20netwwork%20offline.png)
+  ![Image](https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/manifest.json.png)
+  ![Image](https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/service%20workers.png)
+  ![Image](https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/serviceworker-cache%20files%20.png)
+
   ## Testing
    App can be tested on your browser/ deployed heroku site
     browser : http://localhost:3001
