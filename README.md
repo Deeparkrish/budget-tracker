@@ -32,7 +32,6 @@ It provides the following functionality:<br>
   * [License](#license)
   * [Process](#process)
   * [Technologies](#technologies)
-  * [ProjectDemo](#projectdemo)
   * [MockUp](#mockup)
   * [Testing](#testing)
   * [HerokuApp](#herokuapp)
@@ -93,13 +92,14 @@ It provides the following functionality:<br>
           * start_url:URL that should be loaded when the user launches the web application.
           * display:When set to 'standalone', the application will look and feel like a standalone application. This can include the application having a different                     window, its own icon in the application launcher
           
-   * Depolying the app on Heroku 
-         *  Create a mongoDb Atlas account.
-         *  Create Production Database in Atlas.
-         *  Add a Database and network access 
-         *  Copy the connection URL
-         *  Set Up the Environment Variable in Heroku.
-         *  Connect Production Database to App
+   * Deploying the app on Heroku <br>
+      * The follwing steps are followed:
+         * Create a mongoDb Atlas account.
+         * Create Production Database in Atlas.
+         * Add a Database and network access 
+         * Copy the connection URL
+         * Set Up the Environment Variable in Heroku.
+         * Connect Production Database to App
     
   ## Technologies 
   * MongoDB: A general purpose, document-based, distributed NoSQL database built for web application developers in the cloud era.Data stored in JSON format.
