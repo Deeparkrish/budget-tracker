@@ -1,4 +1,4 @@
-# Budget Tracker Starter Code
+# Budget Tracker 
 ## Description
 A mobile-first PWA to update an existing budget tracker application.The app has a server and uses MongoDB as its database.<br>
 It provides the following functionality:<br>
@@ -6,8 +6,6 @@ It provides the following functionality:<br>
     * The ability to enter expenses offline.<br>
     * Offline entries will be added to the tracker when the application is brought back online.
     
-# tech-blog
-
   <p align="left">
     <img src="https://img.shields.io/github/repo-size/deeparkrish/budget-tracker" />
     <img src="https://img.shields.io/github/issues/deeparkrish/budget-tracker" />
@@ -32,7 +30,6 @@ It provides the following functionality:<br>
   * [License](#license)
   * [Process](#process)
   * [Technologies](#technologies)
-  * [ProjectDemo](#projectdemo)
   * [MockUp](#mockup)
   * [Testing](#testing)
   * [HerokuApp](#herokuapp)
@@ -44,14 +41,14 @@ It provides the following functionality:<br>
     npm install express mongoose morgan compression
 
   ##  Usage
-  ### Frome Heroku app :   
-    Visit the heroku app link provided below and wait for the application to start.
-    or click on ![image](https://user-images.githubusercontent.com/82689013/133001248-49426b11-b197-4948-b36c-c9181a810cad.png) to the right to download App.
-
-
-  ### Start the app
-    node server.js
-
+  #### Start the app
+      node server.js
+  #### On Heroku 
+    Visit the heroku app link provided below and wait for the application to start.  
+  #### Download App
+  Click on <img src="https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/download%20icon.png" alt="InstallApp" width="50" height ="50"/>
+  in your browser's in the URL address bar.
+  
   ## License 
   [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)<br />
   This app is covered under ISC license.
@@ -93,13 +90,14 @@ It provides the following functionality:<br>
           * start_url:URL that should be loaded when the user launches the web application.
           * display:When set to 'standalone', the application will look and feel like a standalone application. This can include the application having a different                     window, its own icon in the application launcher
           
-   * Depolying the app on Heroku 
-         *  Create a mongoDb Atlas account.
-         *  Create Production Database in Atlas.
-         *  Add a Database and network access 
-         *  Copy the connection URL
-         *  Set Up the Environment Variable in Heroku.
-         *  Connect Production Database to App
+   * Deploying the app on Heroku 
+      * The steps are found below:
+         * Create a mongoDb Atlas account.
+         * Create Production Database in Atlas.
+         * Add a Database and network access 
+         * Copy the connection URL
+         * Set Up the Environment Variable in Heroku.
+         * Connect Production Database to App
     
   ## Technologies 
   * MongoDB: A general purpose, document-based, distributed NoSQL database built for web application developers in the cloud era.Data stored in JSON format.
